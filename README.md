@@ -32,3 +32,19 @@ if __name__ == "__main__":
     # Создание и сохранение векторного пространства
     create_and_save_vector_space(directory, output_file='vector_space.pkl')
 ```
+
+## Tgbot_main.py
+
+Здесь [Tgbot_main.py](Tgbot_main.py) уже реализован тг-бот. Для него требуется API и URL для работы с нейронкой. 
+BASE_URL дефолтное, API_KEY зависит от модели
+
+```sh
+BASE_URL = os.getenv("LM_STUDIO_URL", "http://localhost:1234/v1")
+API_KEY = os.getenv("API_KEY", "meta-llama-3.1-8b-instruct")
+```
+
+Так же нужно взять API TELEGRAM_TOKEN у [BotFather](https://t.me/BotFather). /newbot -> Создать бота, указать имя и получить API.
+
+```sh
+TELEGRAM_TOKEN = "API HERE"
+```
