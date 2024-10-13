@@ -10,7 +10,7 @@ from openai import OpenAI
 # Загрузка переменных окружения
 load_dotenv(find_dotenv())
 
-TELEGRAM_TOKEN = "8005272373:AAH5yLsNORtPTtP_-Vqeg7dHnXfqapu1EOc"
+TELEGRAM_TOKEN = "YOUR TOKEN"
 
 # Настройки LM Studio API
 BASE_URL = os.getenv("LM_STUDIO_URL", "http://localhost:1234/v1")
