@@ -62,3 +62,10 @@ API_KEY = os.getenv("API_KEY", "meta-llama-3.1-8b-instruct")
 ```sh
 TELEGRAM_TOKEN = "API HERE"
 ```
+
+## Пример использования
+
+![image](https://github.com/user-attachments/assets/050625a8-0e5b-4d6f-903e-a568ae4bfb5f)
+
+![image](https://github.com/user-attachments/assets/4801f256-1778-4aeb-ab64-5bc86a9992b1)
+
