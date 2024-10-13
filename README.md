@@ -10,6 +10,20 @@
 
 В рамках данной работы [пока что] протестирована одна модель **meta-llama-3.1-8b**
 
+Нужно скачать:
+
+```sh
+$ pip install python-telegram-bot --upgrade
+```
+
+```sh
+pip install openai
+```
+
+```sh
+pip install python-dotenv
+```
+
 ## vectorization.py
 
 С помощью файла [vectorization.py](vectorization.py) собраются все тексты из .md-файлов, разбиваются на предложения и создается для них векторное представление с помощью модели SentenceTransformer. Результаты сохраняются в файл vector_space.pkl
